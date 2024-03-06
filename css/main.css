@@ -70,6 +70,15 @@ img {
     }
 }
 
+.line{
+    background-color: #ffff;
+    padding: .5%;
+    box-sizing: border-box;
+    box-decoration-break: clone;
+    border-color: #ffff;
+    box-shadow: #ffff;
+}
+
 .karma-light {
     font-family: "Karma", serif;
     font-weight: 300;
@@ -98,6 +107,14 @@ img {
     font-family: "Karma", serif;
     font-weight: 700;
     font-style: normal;
+}
+
+footer{
+    background-color: gray;
+}
+
+header{
+    background-color: grey;
 }
 
 .body1 {
