@@ -14,9 +14,13 @@ function showSlides() {
 }
 
 
-fetch('https://type.fit/api/quotes').then(response => {
+var jokeSet = document.querySelector("#quotes")
+var jokePunch = document.querySelector("#quotes2"
+)
+fetch('https://official-joke-api.appspot.com/jokes/random').then(response => {
     response.json().then(data => {
         console.log(data)
-        mainHeading.textContent = data.quote
+        jokeSet.textContent = data.setup
+        jokePunch.textContent = data.punchline
     })
 })
